@@ -1,0 +1,58 @@
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:id="@+id/ivClass"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Class Name"
+        android:layout_marginLeft="6dp"
+        android:id="@+id/tvClassName"
+        android:layout_toRightOf="@+id/ivClass"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:text="Description"
+        android:id="@+id/tvClassDescription"
+        android:layout_below="@+id/tvClassName"
+        android:layout_toRightOf="@+id/ivClass"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Here"
+        android:id="@+id/tvClick"
+        android:textSize="12sp"
+        android:layout_below="@+id/tvClassDescription"
+        android:layout_alignBottom="@+id/ivClass"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"/>
+    
+</RelativeLayout>
+
+
+
+
+</android.support.v7.widget.CardView>
+
+
+
+
+
